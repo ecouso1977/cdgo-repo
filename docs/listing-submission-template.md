@@ -6,7 +6,8 @@ Use this file as the working packet for DEX metadata directories, token aggregat
 
 - Project name: Codigio
 - Token symbol: CDGO
-- Website: https://getcdgo.com
+- Token website: https://getcdgo.com
+- Project website: https://codigioide.com
 - Primary contact email: support@getcdgo.com
 - Support channel: support@getcdgo.com
 - GitHub organization: https://github.com/ecouso1977/cdgo-repo.git

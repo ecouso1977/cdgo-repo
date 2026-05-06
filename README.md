@@ -1,6 +1,6 @@
 # Codigio Token
 
-This folder contains an ERC-20 token scaffold for the CODIGIO IDE ecosystem.
+This folder contains the ERC-20 token for **CDGO** — the crowdfunding token for [CODIGIO IDE](https://codigioide.com) on Ethereum. The token website is [https://getcdgo.com](https://getcdgo.com).
 
 The implementation is intentionally limited to a standards-based token, local tests, and testnet deployment tooling. It does not make the token lawful for fundraising, public sale, or exchange listing in the United States.
 

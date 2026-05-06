@@ -2,7 +2,7 @@
   "name": "codigio-token",
   "version": "0.1.0",
   "private": true,
-  "description": "Codigio ERC-20 token scaffold for the CODIGIO IDE ecosystem",
+  "description": "CDGO — crowdfunding token for CODIGIO IDE (https://codigioide.com) on Ethereum",
   "scripts": {
     "build": "cross-env CI=true HARDHAT_DISABLE_TELEMETRY_PROMPT=true hardhat compile",
     "test": "cross-env CI=true HARDHAT_DISABLE_TELEMETRY_PROMPT=true hardhat test",
