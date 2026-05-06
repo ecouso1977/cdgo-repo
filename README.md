@@ -18,9 +18,9 @@ The implementation is intentionally limited to a standards-based token, local te
 ## Token profile
 
 - Name: Codigio
-- Symbol: CODIGIO
+- Symbol: CDGO
 - Decimals: 18
-- Initial supply: 1,000,000,000 CODIGIO
+- Initial supply: 1,000,000,000 CDGO
 - Minting model: fixed supply minted at deployment to the configured owner
 - Optional launch allocation flow: 20% treasury timelock vault and 20% contributor vesting wallet
 

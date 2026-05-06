@@ -5,7 +5,7 @@ Use this file as the working packet for DEX metadata directories, token aggregat
 ## Project identity
 
 - Project name: Codigio
-- Token symbol: CODIGIO
+- Token symbol: CDGO
 - Website: https://getcdgo.com
 - Primary contact email: support@getcdgo.com
 - Support channel: support@getcdgo.com
@@ -17,7 +17,7 @@ Use this file as the working packet for DEX metadata directories, token aggregat
 - Contract address: 0xCcA01Cb8Ed5C538f1f709546eBF8fb4b5470c664 (Sepolia)
 - Verification URL: https://sepolia.etherscan.io/address/0xCcA01Cb8Ed5C538f1f709546eBF8fb4b5470c664
 - Decimals: 18
-- Total supply: 1,000,000,000 CODIGIO
+- Total supply: 1,000,000,000 CDGO
 - Circulating supply at launch: pending final launch policy
 - Token standard: ERC-20
 

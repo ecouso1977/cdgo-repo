@@ -14,7 +14,7 @@ Define exactly what token holders receive:
 
 ## Supply design
 
-- fixed supply: 1,000,000,000 CODIGIO
+- fixed supply: 1,000,000,000 CDGO
 - decimals: 18
 - inflation: none in the current contract
 
