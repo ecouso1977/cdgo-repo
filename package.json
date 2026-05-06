@@ -1,0 +1,28 @@
+{
+  "name": "codigio-token",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Codigio ERC-20 token scaffold for the CODIGIO IDE ecosystem",
+  "scripts": {
+    "build": "cross-env CI=true HARDHAT_DISABLE_TELEMETRY_PROMPT=true hardhat compile",
+    "test": "cross-env CI=true HARDHAT_DISABLE_TELEMETRY_PROMPT=true hardhat test",
+    "generate:wallets": "node scripts/generate-wallets.js",
+    "fund": "node scripts/fund-wallet.js",
+    "readiness": "node scripts/readiness-check.js",
+    "deploy:sepolia": "cross-env CI=true HARDHAT_DISABLE_TELEMETRY_PROMPT=true hardhat run scripts/deploy.js --network sepolia",
+    "deploy:mainnet": "cross-env CI=true HARDHAT_DISABLE_TELEMETRY_PROMPT=true hardhat run scripts/deploy.js --network mainnet",
+    "deploy:base-sepolia": "cross-env CI=true HARDHAT_DISABLE_TELEMETRY_PROMPT=true hardhat run scripts/deploy.js --network baseSepolia",
+    "verify:mainnet": "cross-env CI=true HARDHAT_DISABLE_TELEMETRY_PROMPT=true hardhat run scripts/verify.js --network mainnet",
+    "verify:sepolia": "cross-env CI=true HARDHAT_DISABLE_TELEMETRY_PROMPT=true hardhat run scripts/verify.js --network sepolia",
+    "verify:base-sepolia": "cross-env CI=true HARDHAT_DISABLE_TELEMETRY_PROMPT=true hardhat run scripts/verify.js --network baseSepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.5"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.0.2"
+  }
+}

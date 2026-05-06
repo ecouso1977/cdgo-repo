@@ -1,0 +1,36 @@
+{
+  "name": "Codigio",
+  "symbol": "CODIGIO",
+  "description": "Codigio is the ecosystem token scaffold for the CODIGIO IDE project.",
+  "image": "https://media.base44.com/images/public/69eb77441ec27d457e22a373/a3e7ccae0_image.png",
+  "website": "https://getcdgo.com",
+  "socials": {
+    "x": "https://x.com/getcdgo",
+    "github": "https://github.com/ecouso1977/cdgo-repo.git",
+    "discord": "https://discord.gg/CdSNnaU8",
+    "telegram": "not-used"
+  },
+  "explorer": {
+    "chain": "sepolia",
+    "contractAddress": "0xCcA01Cb8Ed5C538f1f709546eBF8fb4b5470c664"
+  },
+  "token": {
+    "decimals": 18,
+    "totalSupply": "1000000000"
+  },
+  "allocation": {
+    "tokenOwner": "0xE69aDFdE9082d33b65fcCC17D0446c84c7F1d310",
+    "treasuryWallet": "0xB174d008aD95c9B0e192A0b8bf85802434B5b62d",
+    "contributorBeneficiary": "0x3B99FB8314f8E33Fb076b8f78061Ab30C83702C1",
+    "treasuryCustody": "CodigioTreasuryVault timelock",
+    "contributorVesting": "CodigioContributorVesting"
+  },
+  "branding": {
+    "logoAsset": "https://media.base44.com/images/public/69eb77441ec27d457e22a373/a3e7ccae0_image.png",
+    "wordmarkAsset": "https://media.base44.com/images/public/69eb77441ec27d457e22a373/50aa74c27_cdgo-wordmark.png"
+  },
+  "compliance": {
+    "jurisdiction": "US",
+    "status": "Do not publish for sale or exchange listing until legal review is complete"
+  }
+}
