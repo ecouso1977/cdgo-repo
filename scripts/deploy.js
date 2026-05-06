@@ -85,12 +85,12 @@ async function main() {
 
     console.log(`Treasury vault deployed to ${treasuryVaultAddress}`);
     console.log(
-      `Treasury allocation locked in timelock vault: ${hre.ethers.formatUnits(treasuryAllocation, 18)} CODIGIO`
+      `Treasury allocation locked in timelock vault: ${hre.ethers.formatUnits(treasuryAllocation, 18)} CDGO`
     );
   } else if (treasuryWallet) {
     const treasuryTransfer = await codigioToken.transfer(treasuryWallet, treasuryAllocation);
     await treasuryTransfer.wait();
-    console.log(`Treasury allocation sent to ${treasuryWallet}: ${hre.ethers.formatUnits(treasuryAllocation, 18)} CODIGIO`);
+    console.log(`Treasury allocation sent to ${treasuryWallet}: ${hre.ethers.formatUnits(treasuryAllocation, 18)} CDGO`);
   }
 
   if (contributorWallet) {
@@ -107,7 +107,7 @@ async function main() {
 
     console.log(`Contributor vesting wallet deployed to ${vestingAddress}`);
     console.log(
-      `Contributor allocation locked for ${contributorWallet}: ${hre.ethers.formatUnits(contributorAllocation, 18)} CODIGIO`
+      `Contributor allocation locked for ${contributorWallet}: ${hre.ethers.formatUnits(contributorAllocation, 18)} CDGO`
     );
   }
 }
