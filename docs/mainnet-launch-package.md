@@ -31,8 +31,19 @@ This package is intentionally gated. It organizes the files and decisions requir
 
 - no legal classification memo for the US fundraising model
 - no audit report
-- no final social details
-- no mainnet deployment address or verification URL
+- no published post-launch incident response policy
+- no finalized exchange legal packet for all target jurisdictions
+
+## Mainnet deployment record (executed)
+
+- token address: `0xCAFacE86f71cD3926836F7AAd854b27167dfCbc7`
+- token verification: `https://etherscan.io/address/0xCAFacE86f71cD3926836F7AAd854b27167dfCbc7#code`
+- treasury vault address: `0x4dbCEEE3C6c333f55c3F195fb4571239e4e75d15`
+- treasury verification: `https://etherscan.io/address/0x4dbCEEE3C6c333f55c3F195fb4571239e4e75d15#code`
+- contributor vesting address: `0x51d7cb8F1AC2B547C1CD83af23335cF2750Ca4D3`
+- contributor verification: `https://etherscan.io/address/0x51d7cb8F1AC2B547C1CD83af23335cF2750Ca4D3#code`
+- uniswap v2 pair: `0xB2dc5c64776732feAf58098b05F39cC73574441a`
+- geckoterminal: `https://www.geckoterminal.com/eth/pools/0xB2dc5c64776732feAf58098b05F39cC73574441a`
 
 ## Release gate
 
